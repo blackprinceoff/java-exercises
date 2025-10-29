@@ -25,7 +25,7 @@ public class Main {
         Scanner sc5 = new Scanner(System.in);
         System.out.print("Input first number: ");
         int x5 = sc5.nextInt();
-        System.out.print("Input first number: ");
+        System.out.print("Input second number: ");
         int y5 = sc5.nextInt();
         System.out.println(x5 + " x " + y5 + " = " + x5 * y5);
 
@@ -75,6 +75,16 @@ public class Main {
         System.out.println("Perimeter is " + per11);
         System.out.println("Area is " + area11);
 
+        // 12. Average of Three Numbers
+        Scanner sc8 = new Scanner(System.in);
+        System.out.print("input number 1: ");
+        int num1 = sc8.nextInt();
+        System.out.print("input number 2: ");
+        int num2 = sc8.nextInt();
+        System.out.println("input number 3: ");
+        int num3 = sc8.nextInt();
 
+        int avg = (num1 + num2 + num3) / 3;
+        System.out.println("The average number is: " + avg);
     }
 }
